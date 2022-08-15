@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  margin: 15px;
+  padding: 15px;
+  font-family: 'Montserrat' , 'sans-serif';
+}
+h2{
+ text-align: center;
+color: rgb(65, 59, 59);
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  background: url(https://scontent.ftun1-2.fna.fbcdn.net/v/t39.30808-6/299277971_2133255656853844_2267151809850789840_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=1bu3FfJsXUUAX9AG4vz&_nc_ht=scontent.ftun1-2.fna&oh=00_AT-Vlod0D2uTaaBZ7x6UXSN7-IdyA8EfwOTVj3R1tEmbYg&oe=62FE5CB4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px rgb(189, 40, 14) ;
+}
+nav h1{
+  color: black;
+  font-family: 'play display','sans-serif';
+  font-size: 30px;
+}
+nav .onglets{
+  margin-top: 3px;
+  margin-left: 300px;
+}
+nav .onglets a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
