@@ -1,41 +1,91 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-body{
-  margin: 15px;
-  padding: 15px;
-  font-family: 'Montserrat' , 'sans-serif';
-}
-h2{
- text-align: center;
-color: rgb(65, 59, 59);
+@import url('https//fonts.googleapis.com/css?family=poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
 }
 body{
-  font-family: 'Poppins', sans-serif;
-  height: 100%;
-  background: url(https://scontent.ftun1-2.fna.fbcdn.net/v/t39.30808-6/299277971_2133255656853844_2267151809850789840_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=1bu3FfJsXUUAX9AG4vz&_nc_ht=scontent.ftun1-2.fna&oh=00_AT-Vlod0D2uTaaBZ7x6UXSN7-IdyA8EfwOTVj3R1tEmbYg&oe=62FE5CB4);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #050e2d;
 }
-nav{
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 7px 80px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b2141;
+  transition: 0.5s;
+  z-index: 1000;
+}
+header .logo{
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2cm;
+  font-weight: 700;
+}
+header .nav{
+  display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 5px rgb(189, 40, 14) ;
 }
-nav h1{
-  color: black;
-  font-family: 'play display','sans-serif';
-  font-size: 30px;
-}
-nav .onglets{
-  margin-top: 3px;
-  margin-left: 300px;
-}
-nav .onglets a{
+header ul li{
+  list-style: none;
+  margin: 10px;
+} 
+header ul li a{
+  color: #fff;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-right: 10px;
-  border-bottom: 1px solid #000;
-  padding-bottom: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
+header ul li a:hover{
+  background: #1aeeef;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef;
+} 
+header .action .searchBx{
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;  
+}
+header .action .searchBx i{
+  font-size: 1.4em;
+  margin: 5px;
+  color: #222;
+}
+header .action .searchBx input{
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: #222;
+} 
+/* Home Banner */
+
+.banner{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .banner p{
+  color: #fff;
+}
+.banner h2{
+  color: #94a9f7;
+}
+
+
+
+
