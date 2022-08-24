@@ -85,7 +85,23 @@ header .action .searchBx input{
 .banner h2{
   color: #94a9f7;
 }
-
-
-
-
+body{
+  font-family: 'Poopins', sans-serif;
+  height: 100;
+}
+.banner .bg .content a{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #1aeeef;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.banner .bg .content a:hover{
+  background: #1aeeef;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef;
+}
